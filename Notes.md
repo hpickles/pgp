@@ -13,3 +13,7 @@ from the Arch documentation.  I end up implementing the .bashrc section
 to get things to work.  I've uploaded my test key to the public key
 server, but it doesn't seem to be pulling correctly yet.  Instead, I
 have manually exported and imported my public keys.
+
+## Generate SSH key
+To generate the ssh key, use `gpg --export-ssh-key <userid>` to print
+the SSH key to the console.
